@@ -13,6 +13,8 @@ const whitelist = [
   "http://localhost:8101",
   // "https://cliente.com",
   // "https://www.cliente.com",
+  // El front de este proyecto (local o producción) siempre puede hablar con su API.
+  env.FRONTEND_URL,
   ...env.CORS_ORIGINS,
 ];
 
