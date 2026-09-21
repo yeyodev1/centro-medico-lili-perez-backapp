@@ -37,9 +37,11 @@ export const env = {
   ADMIN_PASSWORD: optional("ADMIN_PASSWORD", ""),
   ADMIN_NAME: optional("ADMIN_NAME", "Administración"),
   RESEND_API_KEY: optional("RESEND_API_KEY", ""),
-  RESEND_FROM_EMAIL: optional("RESEND_FROM_EMAIL", "Centro Medico Lili Perez <onboarding@resend.dev>"),
+  RESEND_FROM_EMAIL: optional("RESEND_FROM_EMAIL", "Centro Médico Dra. Lili Pérez <onboarding@resend.dev>"),
   CLOUDINARY_CLOUD_NAME: optional("CLOUDINARY_CLOUD_NAME", ""),
   CLOUDINARY_API_KEY: optional("CLOUDINARY_API_KEY", ""),
   CLOUDINARY_API_SECRET: optional("CLOUDINARY_API_SECRET", ""),
+  // Si es true, el portal pide además la fecha de nacimiento del paciente.
+  PORTAL_REQUIRE_BIRTHDATE: optional("PORTAL_REQUIRE_BIRTHDATE", "false") === "true",
   CRON_SECRET: optional("CRON_SECRET", ""),
 } as const;
