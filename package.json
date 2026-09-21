@@ -13,6 +13,7 @@
     "compile": "tsc --watch",
     "start": "node dist/index.js",
     "seed:admin": "ts-node-dev --transpile-only src/scripts/seed-admin.ts",
+    "seed:demo": "ts-node-dev --transpile-only src/scripts/seed-demo.ts",
     "format": "prettier --write 'src/**/*.{ts,json,md}' 'api/**/*.ts'"
   },
   "dependencies": {
