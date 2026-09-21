@@ -80,7 +80,8 @@ export async function changePassword(
   const user = await User.findById(id).select("+password");
   if (!user) throw new CustomError("Usuario no encontrado", 404);
   if (!(await bcrypt.compare(current, user.password))) {
-    throw new CustomError("La contraseña actual no es correcta", 401);
+    // 400 y no 401: el front trata todo 401 como sesión vencida y sacaría al usuario.
+    throw new CustomError("La contraseña actual no es correcta", 400);
   }
 
   user.password = next;
