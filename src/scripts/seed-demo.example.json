@@ -1,0 +1,26 @@
+{
+  "patient": {
+    "clinicalHistory": "X000000",
+    "idType": "cedula",
+    "isForeigner": false,
+    "cedula": "0000000000",
+    "fullName": "PACIENTE DE EJEMPLO",
+    "maritalStatus": "soltero",
+    "address": "DIRECCION DE EJEMPLO",
+    "email": "",
+    "sex": "F",
+    "bloodType": "S/E",
+    "status": "active",
+    "admissionDate": "2026-01-01",
+    "birthDate": "2000-01-01",
+    "origin": "GUAYAQUIL",
+    "sector": "NORTE"
+  },
+  "study": {
+    "type": "laboratorio",
+    "title": "Exámenes de laboratorio",
+    "examNumber": "00000",
+    "doctor": "MEDICO LABORATORIO",
+    "studyDate": "2026-01-02"
+  }
+}
