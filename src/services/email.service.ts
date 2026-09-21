@@ -39,12 +39,12 @@ export function layout(title: string, body: string): string {
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#f4f4f5;padding:32px 0;font-family:Arial,Helvetica,sans-serif">
     <tr><td align="center">
       <table width="560" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:16px;overflow:hidden">
-        <tr><td style="background:#111;color:#fff;padding:20px 32px;font-size:18px;font-weight:bold">Centro Medico Lili Perez</td></tr>
+        <tr><td style="background:#1d3fa6;color:#fff;padding:20px 32px;font-size:18px;font-weight:bold">Centro Médico Dra. Lili Pérez</td></tr>
         <tr><td style="padding:32px;color:#111;font-size:15px;line-height:1.6">
           <h1 style="margin:0 0 16px;font-size:22px">${title}</h1>
           ${body}
         </td></tr>
-        <tr><td style="padding:16px 32px;color:#71717a;font-size:12px">© ${new Date().getFullYear()} Centro Medico Lili Perez</td></tr>
+        <tr><td style="padding:16px 32px;color:#71717a;font-size:12px">© ${new Date().getFullYear()} Centro Médico Dra. Lili Pérez</td></tr>
       </table>
     </td></tr>
   </table>`;
