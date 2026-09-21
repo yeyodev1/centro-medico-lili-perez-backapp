@@ -107,7 +107,7 @@ export async function createUser(input: {
     password: input.password,
     name: input.name || "",
     phone: input.phone || "",
-    accountType: input.accountType || "customer",
+    accountType: input.accountType || "staff",
   });
   return sanitize(user);
 }
